@@ -1,0 +1,42 @@
+
+.title {
+    color: slateblue;
+    text-align: center;
+}
+.First {
+    margin : auto;
+    width : 1000px;
+    height : 930px;    
+}
+.App { 
+    background-color: #F2EEE5;
+    width : 300px;
+    height : 350px;
+    margin : 20px auto;
+}
+.container {
+    padding: 10px;
+    text-align: center;
+}
+
+.btn {
+    margin-top : 30px;
+}
+.goback_btn {
+    margin-top : 10px;
+}
+
+.icon { 
+    position :fixed;
+    left : 73.5%;
+    top : 84%;
+    z-index: 2;
+}
+
+.icon2 { 
+    position :fixed;
+    left : 73.5%;
+    top : 79.5%;
+    z-index: 2;
+}
+

@@ -1,43 +1,39 @@
 import React from "react";
-import Nemo from "./Nemo";
-
-class App extends React.Component{
+import Nemo from "./Nemo"
+class App extends React.Component { 
   constructor(props){
     super(props);
 
-    this.state ={
+    this.state = {
+      count : 3,
+      cnt : 5
     };
+  }
+
+  addNemo = () => {
+    this.setState({count: this.state.count + 1});
+    console.log("addNemo")
+  }
+
+  removeNemo = () => {
+    if (this.state.count > 0) { 
+      this.setState({count: this.state.count - 1});
+      }else { 
+        window.alert("네모가없습니다 ")
+      }
     
-    this.div =React.createRef();
-  }
-
-  hoverEvent = (e) => {
-    console.log(e);
-    console.log(e.target)
-
-    e.target.style.background = "#eee";
-  }
-
-  componentDidMount(){
-    this.div.current.addEventListener("mouseover", this.hoverEvent)
-
-  }
-
-  componentWillUnmount(){
-    this.div.current.removeEventListener("mouseover", this.hoverEvent)
-  }
-
-  render(){
     
-    return (
-      <div className="App" ref={this.div}>
-        <Nemo/>
-    </div>
-    )
+  }
 
+    render(){
+    const nemo_count = Array.from({length: this.state.count}, (a, idx)=> (idx))
+    console.log(nemo_count)
+    return (  
+    <div className='App'>
+      <Nemo/>
+      </div>
+    );
   }
 }
-
-
 
 export default App;
