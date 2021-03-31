@@ -2,9 +2,18 @@
   "dependencies": {
     "@fullcalendar/daygrid": "^5.5.0",
     "@fullcalendar/react": "^5.5.0",
+    "connected-react-router": "6.8.0",
     "create-react-app": "^4.0.3",
     "global": "^4.4.0",
+    "history": "4.10.1",
+    "immer": "^9.0.1",
     "moment": "^2.29.1",
-    "react-router-dom": "^5.2.0"
+    "react-redux": "^7.2.3",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5",
+    "redux-actions": "^2.6.5",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.2.1"
   }
 }

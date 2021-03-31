@@ -40,7 +40,7 @@ Post.defaultProps ={
         user_profile:"https://lh3.googleusercontent.com/-oHs2LQ3i2NU/YF7KwFXNoNI/AAAAAAAAPFM/CNmmNmpO7_EzjeQaaCcwZR3qfU8vZfSTQCLcBGAsYHQ/0.jpg"
     },
     image_url:"https://lh3.googleusercontent.com/-oHs2LQ3i2NU/YF7KwFXNoNI/AAAAAAAAPFM/CNmmNmpO7_EzjeQaaCcwZR3qfU8vZfSTQCLcBGAsYHQ/0.jpg",
-    contents: '고양이네요 !',
+    contents: '푸들이네요 !',
     comment_cnt : 10,
     insert_dt : "2021-03-27 10:00:00",
 }
